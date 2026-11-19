@@ -10,9 +10,9 @@ import perla.itszn.edu.mx.calculadorabasica.Calculos;
  *
  * @author Perla Castañeda
  */
-public class PruebasCalculos {
+public class TestCalculos {
     
-    public PruebasCalculos() {
+    public TestCalculos() {
     }
     Calculos instancia=new Calculos();
    
