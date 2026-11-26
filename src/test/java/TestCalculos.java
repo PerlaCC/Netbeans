@@ -50,6 +50,32 @@ public class TestCalculos {
         int esperado=-2;
         int obtenido=instancia.resta(x,y);
         assertEquals(esperado, obtenido);
+    }
     
+    @Test
+    public void pruebaMulti1(){
+        int x=4;
+        int y=2;
+        int esperado=8;
+        int obtenido=instancia.multi(x,y);
+        assertEquals(esperado, obtenido);
+    }
+    
+    @Test
+    public void pruebaMulti2(){
+        int x=6;
+        int y=-2;
+        int esperado=-12;
+        int obtenido=instancia.multi(x,y);
+        assertEquals(esperado, obtenido);
+    }
+    
+    @Test
+    public void pruebaDivision1(){
+        int x=8;
+        int y=2;
+        int esperado=4;
+        int obtenido=instancia.division(x,y);
+        assertEquals(esperado, obtenido);
     }
 }
